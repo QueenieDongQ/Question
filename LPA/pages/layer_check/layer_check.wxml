@@ -1,0 +1,34 @@
+<!--pages/layer_check/layer_check.wxml-->
+<view class='container'>
+  <view>
+    <view>项目名称:{{project}}</view>
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 100px;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{projects}}">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+    <view>产品名称:{{product}}</view>
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 100px;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{products}}">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+    <view>件号:{{pNo}}</view>
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 100px;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{pNo}}">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+
+  <block wx:for="{{qData}}" wx:key="{{item.id}}" class='gate'>
+    <view wx:for="{{item.title}}" class='state'>
+      <text>{{item.title}}</text>
+
+      <view wx:for="{{item.options}}" class='item'>
+        <text>{{item.options}}</text>
+      </view>
+    </view>
+  </block>
+
+</view>
