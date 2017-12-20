@@ -1,3 +1,3 @@
-{"id":0,"gate":"Gate1","state":"RFQ","item":["A","B"],"output":"AB!!"},
-{"id":1,"gate":"Gate1","state":"Kick-off","item":["C","D","E"],"output":"CDE!!"},
-{"id":2,"gate":"Gate2","state":"Design","item":"F","output":"F!!"}
+{"Gate1":[{"qId":0,"title":"A","state":"RFQ","output":"Aa"},{"qId":1,"title":"B","state":"RFQ","output":"Bb"}],
+"Gate2":[{"qId":2,"title":"c","state":"Kick-off","output":"Cc"},{"qId":3,"title":"D","state":"Kick-off","output":"Dd"},{"qId":3,"title":"E","state":"Kick-off","output":"Ee"}]
+}

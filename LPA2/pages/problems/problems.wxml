@@ -1,0 +1,40 @@
+<!--pages/problems/problems.wxml-->
+<view>
+  <view class="header">
+    <label>LPA</label>
+    <view>
+      <label>Project
+        <input></input>
+      </label>
+      <label>Product
+        <input></input>
+      </label>
+      <label>pNo
+        <input></input>
+      </label>
+    </view>
+  </view>
+
+  <view hidden class='radio'>
+    <view class='gate template' wx:for="">
+      <label>{{Gate}}</label>
+      <view class='item template'>
+          <label>{{problem.state}}</label>
+          <label>{{problem.output}}</label>
+          <label>{{problem.title}}</label>
+          <label>
+            <radio value='{{}}'></radio>Y
+          </label>
+          <label>
+            <radio value='{{}}'></radio>N
+          </label>
+        </view>
+        <label>
+          <radio value='{{}}'></radio>NA
+        </label>
+        <label>Remark
+          <input></input>
+        </label>
+  </view>
+    </view>    
+</view>
