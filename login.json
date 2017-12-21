@@ -1,8 +1,6 @@
 {
   "errcode": 0,
-  "data": {
-    "openid": "0",
-    "hash": "abc",
-    "timestamp": 0
-  }
+  "openid": "0",
+  "hash": "abc",
+  "timestamp": 0
 }
