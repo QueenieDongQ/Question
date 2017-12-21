@@ -1,3 +1,18 @@
-{"Gate1":[{"qId":0,"title":"A","state":"RFQ","output":"Aa"},{"qId":1,"title":"B","state":"RFQ","output":"Bb"}],
-"Gate2":[{"qId":2,"title":"c","state":"Kick-off","output":"Cc"},{"qId":3,"title":"D","state":"Kick-off","output":"Dd"},{"qId":3,"title":"E","state":"Kick-off","output":"Ee"}]
-}
+[
+    {
+        "Gate": "Gate1", 
+        "problems": [
+            {"qId":0,"title":"A","state":"RFQ","output":"Aa"},
+            {"qId":1,"title":"B","state":"RFQ","output":"Bb"}
+        ]
+    },
+
+    {
+        "Gate": "Gate2", 
+        "problems": [
+            {"qId":2,"title":"c","state":"Kick-off","output":"Cc"},
+            {"qId":3,"title":"D","state":"Kick-off","output":"Dd"},
+            {"qId":3,"title":"E","state":"Kick-off","output":"Ee"}
+        ]
+    }
+]
