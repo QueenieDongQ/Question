@@ -3,7 +3,8 @@
         "Gate": "Gate1", 
         "problems": [
             {"qId":0,"title":"A","state":"RFQ","output":"Aa"},
-            {"qId":1,"title":"B","state":"RFQ","output":"Bb"}
+            {"qId":1,"title":"B","state":"RFQ","output":"Bb"},
+            {"qId":5,"title":"AB","state":"RFQ","output":"AAABBBB"},
         ]
     },
 
@@ -12,7 +13,7 @@
         "problems": [
             {"qId":2,"title":"c","state":"Kick-off","output":"Cc"},
             {"qId":3,"title":"D","state":"Kick-off","output":"Dd"},
-            {"qId":3,"title":"E","state":"Kick-off","output":"Ee"}
+            {"qId":4,"title":"E","state":"Kick-off","output":"Ee"},
         ]
     }
 ]
