@@ -1,19 +1,19 @@
 [
     {
-        "Gate": "Gate1", 
+        "Gate": "Gate1",
         "problems": [
-            {"qId":0,"title":"A","state":"RFQ","output":"Aa"},
-            {"qId":1,"title":"B","state":"RFQ","output":"Bb"},
-            {"qId":5,"title":"AB","state":"RFQ","output":"AAABBBB"}
+            {"qId":1,"title":"输入资料是否齐全（SOR，数模，图纸，NPE）？","state":"RFQ","output":"潜在项目可行性分析报（TR）成本分析表"},
+            {"qId":2,"title":"项目团队是否参与RFQ评估？项目可行性评估中是否发现高风险项（新产品、新材料、新工艺、新标准、过于严苛的公差或外观、性能，模具成型或者有未确定的事","state":"RFQ","output":"潜在项目可行性分析报（TR）成本分析表"},
+
         ]
     },
 
     {
-        "Gate": "Gate2", 
+        "Gate": "Gate2",
         "problems": [
-            {"qId":2,"title":"c","state":"Kick-off","output":"Cc"},
-            {"qId":3,"title":"D","state":"Kick-off","output":"Dd"},
-            {"qId":4,"title":"E","state":"Kick-off","output":"Ee"}
+            {"qId":2,"title":"开发任务书是否收到？","state":"Kick-off","output":"开发任务书"},
+            {"qId":3,"title":"产品合同是否收到？","state":"Kick-off","output":"产品合同"},
+            {"qId":4,"title":"工装合同是否收到？","state":"Kick-off","output":"工装合同"}
         ]
     }
 ]
